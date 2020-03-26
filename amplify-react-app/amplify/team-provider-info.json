@@ -1,0 +1,15 @@
+{
+    "local": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-spai-local-02034-authRole",
+            "UnauthRoleArn": "arn:aws:iam::720790514619:role/amplify-spai-local-02034-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::720790514619:role/amplify-spai-local-02034-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-spai-local-02034-deployment",
+            "UnauthRoleName": "amplify-spai-local-02034-unauthRole",
+            "StackName": "amplify-spai-local-02034",
+            "StackId": "arn:aws:cloudformation:us-east-1:720790514619:stack/amplify-spai-local-02034/24597750-6f19-11ea-9e17-12c1d85cca19",
+            "AmplifyAppId": "d21xl0iecvltd5"
+        }
+    }
+}

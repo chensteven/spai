@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/profile",
+            "lambdaFunction": "spaifunction",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "spaiapi2",
+    "apiName": "spaiapi2",
+    "functionArns": [
+        {
+            "lambdaFunction": "spaifunction"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-spai-local-02034-authRole",
+        "unAuthRoleName": "amplify-spai-local-02034-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "spaifunction",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
